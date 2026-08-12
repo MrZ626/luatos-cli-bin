@@ -11,7 +11,7 @@ on:
       - PKGBUILD
       - README.md
   schedule:
-    - cron: '23 */6 * * *'
+    - cron: '26 6 * * *'
   repository_dispatch:
     types:
       - upstream-release
